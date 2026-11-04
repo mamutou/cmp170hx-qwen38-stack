@@ -1,0 +1,11 @@
+# logs / local artifacts
+*.log
+*.local.*
+.env
+.DS_Store
+
+# model weights and engine packs never belong in the repo
+models/
+packs/
+*.gguf
+*.safetensors
